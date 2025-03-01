@@ -46,18 +46,6 @@ if int(NAME_DICT_FLAG):
         csvreader  = csv.DictReader(f,delimiter=",", doublequote=True, lineterminator="\r\n", quotechar='"', skipinitialspace=True)
         NAME_CORRECTIONS = [row for row in csvreader]
 
-#NAME_CORRECTIONS = {
-#    'はーーどおふ': 'はーどおふ',
-#    'は一どおふ': 'はーどおふ',
-#    'ざきむくぐ': 'ざきむぐ',
-#    'ざきおむぐ': 'ざきむぐ',
-#    'にさりまく': 'ざきむぐ',
-#    'かいとんばぱば_': 'かいとんぱ_',
-#    'かいとんばぱ_': 'かいとんぱ_',
-#    'かいとんば_': 'かいとんぱ_'
-#}
-#print(NAME_CORRECTIONS[0])
-
 # 指定した画像をOCRしてテキストを抽出
 def img2text(image_file, lang, place):
 
