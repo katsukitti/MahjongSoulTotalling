@@ -149,11 +149,11 @@ def updatelist(today, now, place, name, point, rank, comment):
     
     # 集計用Excelファイル
     RESULT_EXCEL = os.getenv('RESULT_EXCEL')
-    sheet_name = '対局結果'
+    EXCEL_SHEET = os.getenv('EXCEL_SHEET')
 
     # Excelファイルを開く
     wb = px.load_workbook(RESULT_EXCEL)
-    ws = wb[sheet_name]
+    ws = wb[EXCEL_SHEET]
 
     # 最大行番号を取得
     max = ws.max_row
