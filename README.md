@@ -15,7 +15,7 @@
 #
 ## Creation record
 # 以下のnoteをご覧ください
-# https://note.com/katsukitti/n/na644c00696e4
+# https://note.com/katsukitti/m/m3cb161126961
 #
 ## License
 # This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
